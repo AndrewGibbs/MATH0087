@@ -18,7 +18,7 @@ function get_f(level)
     end
 end
 
-int_wrap(y) =string("\\text{Compute the leading orde term in the asymptotic expansion of} \n
+int_wrap(y) =string("\\text{Compute the leading order term in the asymptotic expansion of} \n
                     I(x)=\\int_0^1",y,"dt,\\quad x\\to\\infty")
 
 function Laplace(level)
@@ -46,7 +46,7 @@ function StationaryPhase(level)
         "t^2",
         "\\cos(t\\pi/4)",
         "\\cos^2(t\\pi/4)"]
-    N1 = length(Φ2)
+    N2 = length(Φ2)
     if level ==1
         ϕ = "t"
     elseif level ==2
